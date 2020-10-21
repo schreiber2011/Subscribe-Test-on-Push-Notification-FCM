@@ -10,6 +10,8 @@ class PushNotificationService {
       _fcm.requestNotificationPermissions(IosNotificationSettings());
     }
 
+    //_fcm.subscribeToTopic('distribuidor_43');
+
     _fcm.configure(
       // Called when app foreground
       onMessage: (Map<String, dynamic> message) async {

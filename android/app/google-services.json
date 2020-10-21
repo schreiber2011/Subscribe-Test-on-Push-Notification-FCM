@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:531392055158:android:4e9928917f67aab865dc57",
+        "mobilesdk_app_id": "1:531392055158:android:0bc11db28142bfa365dc57",
         "android_client_info": {
-          "package_name": "com.filledstacks.compound"
+          "package_name": "com.example.flex_mobile"
         }
       },
       "oauth_client": [

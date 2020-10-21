@@ -9,7 +9,8 @@ class StartUpViewModel extends BaseModel {
   final AuthenticationService _authenticationService =
       locator<AuthenticationService>();
   final NavigationService _navigationService = locator<NavigationService>();
-  final PushNotificationService _pushNotificationService = locator<PushNotificationService>();
+  final PushNotificationService _pushNotificationService =
+      locator<PushNotificationService>();
 
   Future handleStartUpLogic() async {
 
